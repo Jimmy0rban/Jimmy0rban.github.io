@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;  /* Text color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Sub-heading styles */
+h2 {
+    color: #4CAF50;  /* Green text */
+    margin-top: 40px;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 15px;
+}
+
+/* Links in the document */
+a {
+    color: #333;  /* Default link color */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #4CAF50;  /* Change link color on hover */
+    text-decoration: underline;  /* Add underline on hover */
+}
+
+/* Styling code elements */
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
