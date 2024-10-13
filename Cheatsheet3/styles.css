@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #ee1296;  /* Text color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    background-color: #af4ca2;  /* Green background */
+    color: white;  /* White text */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Sub-heading styles */
+h2 {
+    color: #af4ca2;  /* Green text */
+    margin-top: 40px;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 15px;
+}
+
+/* Links in the document */
+a {
+    color: #333;  /* Default link color */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #af4ca2;  /* Change link color on hover */
+    text-decoration: underline;  /* Add underline on hover */
+}
+
+/* Styling code elements */
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid rgb(241, 10, 184);
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    color:#af4ca2
+}
+th {
+    background-color: #f2f2f2;
+}
+td{
+    background-color: #f2f2f2;
+}
