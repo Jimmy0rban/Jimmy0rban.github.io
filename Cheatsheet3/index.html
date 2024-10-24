@@ -42,6 +42,116 @@
         </tr>
     </tfoot>
 </table>
+
+<h2>Cheat sheet:</h2>
+<h1>Basic Web Techniques - Lists and Tables</h1>
+
+<h2>Html for Lists</h2>
+<ol>
+    <li>Start tags for
+        <ul>
+            <li>an ordered list - Answer: <code>&lt;ol&gt;</code></li>
+            <li>an unordered list - Answer: <code>&lt;ul&gt;</code></li>
+            <li>a description list - Answer: <code>&lt;dl&gt;</code></li>
+            <li>a list item - Answer: <code>&lt;li&gt;</code></li>
+            <li>a description term - Answer: <code>&lt;dt&gt;</code></li>
+            <li>a description data - Answer: <code>&lt;dd&gt;</code></li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Css for Lists</h2>
+<ol>
+    <li>Make bullet a square
+        <pre><code>&lt;ul style="list-style-type: square;"&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </li>
+
+    <li>Make bullet an image named "my-bullet.png"
+        <pre><code>&lt;ul style="list-style-image: url('path');"&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </li>
+
+    <li>Make bullet an uppercase roman number
+        <pre><code>&lt;style&gt;
+    ul.roman {
+        list-style-type: upper-roman;
+    }
+&lt;/style&gt;
+&lt;ul class="roman"&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </li>
+
+    <li>Set bullet position to be inside the list item's text flow
+        <pre><code>&lt;style&gt;
+    ul {
+        list-style-position: inside; 
+    }
+&lt;/style&gt;
+&lt;ul&gt;
+    &lt;li&gt;First item with inside bullet&lt;/li&gt;
+    &lt;li&gt;Second item with inside bullet&lt;/li&gt;
+    &lt;li&gt;Third item with inside bullet&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </li>
+
+    <li>Set bullet position to be outside the list item's text flow
+        <pre><code>&lt;style&gt;
+    ul {
+        list-style-position: outside; 
+    }
+&lt;/style&gt;
+&lt;ul&gt;
+    &lt;li&gt;First item with outside bullet&lt;/li&gt;
+    &lt;li&gt;Second item with outside bullet&lt;/li&gt;
+    &lt;li&gt;Third item with outside bullet&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </li>
+</ol>
+
+<h2>Html for Tables</h2>
+<ol>
+    <li>Start tags for
+        <ul>
+            <li>a table - Answer: <code>&lt;table&gt;</code></li>
+            <li>a table row - Answer: <code>&lt;tr&gt;</code></li>
+            <li>a table header - Answer: <code>&lt;th&gt;</code></li>
+            <li>a table header cell - Answer: <code>&lt;th&gt; Headline &lt;/th&gt;</code></li>
+            <li>a table body - Answer: <code>&lt;tbody&gt;</code></li>
+            <li>a table cell - Answer: <code>&lt;td&gt;</code></li>
+            <li>a table footer - Answer: <code>&lt;tfoot&gt;</code></li>
+            <li>a table footer cell - Answer: <code>&lt;tfoot&gt; &lt;td&gt; footer cell &lt;/td&gt; &lt;/tfoot&gt;</code></li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Css for Tables</h2>
+<ol>
+    <li>Black dotted border of 1 px width.
+        <pre><code>.dotted-border {
+    border: 1px dotted black;
+}</code></pre>
+    </li>
+
+    <li>Solid border of 1 px width having a red color and rounded corners
+        <pre><code>.border {
+    border: 1px solid red;
+    border-radius: 10px;
+}</code></pre>
+    </li>
+
+    <li>Merge the borders of table cells so that they appear as one line
+        <pre><code>.border {
+    border-collapse: collapse;
+    border: 1px solid black;
+}</code></pre>
+    </li>
+</ol>
+
+
 <a href="https://Jimmy0rban.github.io/Cheatsheet1/">1st cheat sheet</a> / <a href="https://Jimmy0rban.github.io/Cheatsheet2/">3rd cheat sheet</a>
 </body>
 </html>
