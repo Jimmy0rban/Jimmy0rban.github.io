@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Sub-heading styles */
+h2 {
+    color: #4CAF50; /* Green text */
+    margin-top: 40px;
+    border-bottom: 2px solid #ddd; /* Adds an underline effect */
+    padding-bottom: 5px;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Questions */
+.question {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Answers */
+.answer {
+    margin-left: 20px;
+    color: #555; /* Slightly darker text for contrast */
+}
+
+/* Links in the document */
+a {
+    color: #333; /* Default link color */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #4CAF50; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Code snippets */
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* Container for each section */
+.section {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 0.9em;
+}

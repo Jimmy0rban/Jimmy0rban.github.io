@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Framework Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sample Questions - Bootstrap Framework</h1>
+
+    <h2>Bootstrap Grid System</h2>
+    <ul>
+        <li><strong>What is the primary purpose of Bootstrap’s grid system?</strong><br>
+        <em>Answer:</em> To create a flexible layout structure by dividing the space into rows and columns.</li>
+        
+        <li><strong>How does the Bootstrap grid system differ when using <code>.container</code> vs <code>.container-fluid</code>?</strong><br>
+        <em>Answer:</em> <code>.container</code> provides a fixed-width layout that adjusts based on set breakpoints while <code>.container-fluid</code> creates a layout that spans across the entire screen.</li>
+        
+        <li><strong>What is the significance of using <code>.col-md-4</code> in Bootstrap?</strong><br>
+        <em>Answer:</em> Divides the row into 12 equal columns and assigns 4 columns to the element.</li>
+        
+        <li><strong>What breakpoints does Bootstrap’s grid system use for responsive design?</strong><br>
+        <em>Answer:</em> <code>xs</code> (&lt;576px), <code>sm</code> (≥576px), <code>md</code> (≥768px), <code>lg</code> (≥992px), <code>xl</code> (≥1200px), and <code>xxl</code> (≥1400px).</li>
+        
+        <li><strong>How do you offset columns in Bootstrap's grid?</strong><br>
+        <em>Answer:</em> Use <code>.col-md-x offset-md-wantedOffset</code>.</li>
+    </ul>
+
+    <h2>Bootstrap Components</h2>
+    <ul>
+        <li><strong>How would you create a responsive navigation bar in Bootstrap?</strong><br>
+        <em>Answer:</em> Use the <code>&lt;nav&gt;</code> element + <code>.navbar</code> and additional classes for responsiveness.</li>
+
+        <li><strong>What class would you use to create a Bootstrap button with a primary style?</strong><br>
+        <em>Answer:</em> <code>.btn-primary</code>.</li>
+
+        <li><strong>Which Bootstrap component can be used to create collapsible content?</strong><br>
+        <em>Answer:</em> The Collapse component.</li>
+
+        <li><strong>What is the purpose of the <code>.card</code> component in Bootstrap, and how do you structure its content?</strong><br>
+        <em>Answer:</em> Used to create content headers with consistent looks. Structure includes <code>.card-header</code>, <code>.card-body</code>, etc.</li>
+    </ul>
+
+    <h2>Bootstrap Utilities</h2>
+    <ul>
+        <li><strong>What class would you use to add margins to an element in Bootstrap?</strong><br>
+        <em>Answer:</em> <code>.m-*</code> (Margin size).</li>
+
+        <li><strong>How can you center text within a Bootstrap element?</strong><br>
+        <em>Answer:</em> Use the <code>.text-center</code> class.</li>
+
+        <li><strong>What Bootstrap utility class can you use to hide an element on small screens but display it on larger screens?</strong><br>
+        <em>Answer:</em> <code>.d-none</code>, <code>d-sm-block</code>.</li>
+
+        <li><strong>How do you make an element float to the right using Bootstrap utility classes?</strong><br>
+        <em>Answer:</em> Use <code>.float-end</code>.</li>
+
+        <li><strong>How can you set the display property of an element to <code>flex</code> using Bootstrap?</strong><br>
+        <em>Answer:</em> Use the <code>.d-flex</code> class.</li>
+    </ul>
+
+    <h2>Customizing Bootstrap</h2>
+    <ul>
+        <li><strong>How can you override the default color scheme in Bootstrap?</strong><br>
+        <em>Answer:</em> Using custom CSS or overwriting the SASS values.</li>
+
+        <li><strong>What is the difference between using Bootstrap via a CDN and downloading the source files?</strong><br>
+        <em>Answer:</em> CDN allows for faster loading through shared caching, while downloading source files provides complete control for customization.</li>
+
+        <li><strong>What are some ways to customize Bootstrap's look without editing its source files directly?</strong><br>
+        <em>Answer:</em> Using custom CSS.</li>
+
+        <li><strong>How can you include custom styles for specific components without affecting the entire Bootstrap theme?</strong><br>
+        <em>Answer:</em> Define specific IDs.</li>
+
+        <li><strong>What role does SASS/SCSS play in customizing Bootstrap’s styles?</strong><br>
+        <em>Answer:</em> It is used for editing variables, mixins, and nested rules.</li>
+    </ul>
+
+    <h2>Bootstrap JavaScript Plugins</h2>
+    <ul>
+        <li><strong>How can you make an element collapse when a button is clicked using Bootstrap's JS components?</strong><br>
+        <em>Answer:</em> Use the <code>data-bs-toggle="collapse"</code> attribute on the button and target the collapsible element with <code>data-bs-target</code>.</li>
+
+        <li><strong>Which Bootstrap plugin is used to create interactive tooltips?</strong><br>
+        <em>Answer:</em> <code>Tooltip</code>.</li>
+
+        <li><strong>How can you trigger a modal to open when a button is clicked?</strong><br>
+        <em>Answer:</em> Use the <code>data-bs-toggle="modal"</code> attribute on the button and specify the modal ID in <code>data-bs-target</code>.</li>
+
+        <li><strong>What is required to enable Bootstrap's JavaScript plugins in a project?</strong><br>
+        <em>Answer:</em> Include Bootstrap's JavaScript bundle via a CDN or download it manually.</li>
+
+        <li><strong>How would you implement a carousel in Bootstrap, and what options are available for customization?</strong><br>
+        <em>Answer:</em> Use the <code>.carousel</code> component with <code>.carousel-item</code> for slides and customize using attributes like <code>data-bs-interval</code>.</li>
+    </ul>
+
+    <h2>Bootstrap Best Practices</h2>
+    <ul>
+        <li><strong>When should you use <code>.container-fluid</code> instead of <code>.container</code> in a layout?</strong><br>
+        <em>Answer:</em> When needing a layout whose width spans across the entire screen.</li>
+
+        <li><strong>Why is it recommended to use Bootstrap classes for styling rather than writing custom CSS from scratch?</strong><br>
+        <em>Answer:</em> Bootstrap simplifies the development process with prebuilt and well-documented classes.</li>
+
+        <li><strong>What are the advantages of using utility classes in Bootstrap?</strong><br>
+        <em>Answer:</em> They provide reusable styles without the need for extra CSS.</li>
+
+        <li><strong>How can you ensure that a Bootstrap site is accessible and complies with accessibility guidelines?</strong><br>
+        <em>Answer:</em> Test it across multiple browsers and devices.</li>
+
+        <li><strong>How do you manage Bootstrap classes when using a front-end framework like React or Angular?</strong><br>
+        <em>Answer:</em> Use class bindings or libraries like <code>react-bootstrap</code> or <code>ngx-bootstrap</code>.</li>
+    </ul>
+</body>
+</html>
